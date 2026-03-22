@@ -1,12 +1,12 @@
 View under the master branch
 
-PM3-MAX版本是一款针对于EASY版本大幅度优化的全新版本，并且提供了免费的GUI软件和英文APP。如果您对免费提供的软件和APP不满意的话，可以使用CMD指令台来操作，电脑和APP需要刷写对应的固件才能使用，请在电脑端刷写固件。
-声明：赠送的GUI软件无毒，但是作者水平有限，不知什么原因无法通过微软的白名单，但是由于本软件属于赠送性质，如您不信任或不满意可以使用指令台、或者其他GUI软件连接使用。再次声明，任何组织或个人都不允许单独售卖软件，本软件是爱好者开发，免费赠送给PM3max设备用户使用
-The GUI software given as a gift is non-toxic, but the author's level is limited and for some reason cannot pass Microsoft's whitelist. However, as this software is a gift, if you do not trust or are not satisfied, you can use the command board or other GUI software to connect and use it.
-1688alibaba：https://detail.1688.com/offer/803777061439.html?spm=a312h.2018_new_sem.dh_002.1.7ee83e6bXYB2Cl&src=zhanwai&ptid=017700000007d8185c661e82920715b1
-淘宝授权店-龙吟智能卡：https://item.taobao.com/item.htm?ft=t&id=805760435089
+The PM3-MAX version is a brand new version that has been greatly optimized from the EASY version, providing free GUI software and an English app. If you are not satisfied with the free software and app provided, you can use the CMD command console to operate. Both the computer and the app require flashing the corresponding firmware before use — please flash the firmware on the PC side.
 
-If you are not in China, you can search for this product on Alibaba
+Disclaimer: The bundled GUI software is safe (non-malicious), but the author's skill level is limited and for unknown reasons it cannot pass Microsoft's whitelist. Since this software is provided as a free bonus, if you do not trust it or are not satisfied, you may use the command console or another GUI application to connect and use it. Note: No organization or individual is permitted to sell this software separately. It is developed by a hobbyist and provided free of charge to PM3 MAX device users.
+
+Purchase on Alibaba: https://detail.1688.com/offer/803777061439.html?spm=a312h.2018_new_sem.dh_002.1.7ee83e6bXYB2Cl&src=zhanwai&ptid=017700000007d8185c661e82920715b1
+
+If you are not in China, you can search for this product on Alibaba.
 
 
 Bottom level source code address：https://github.com/RfidResearchGroup/proxmark3

@@ -1,5 +1,5 @@
-本软件仅限用于RFID技术研究，禁止用于违法操作
-本软件免费使用，可在交流群内提交BUG或建议，交流群：961593848 
-本软件适配PM3 MAX硬件，其他设备请勿随意刷写固件。
-左键自动破解是破解，右键自动破解是破解三代无漏洞密码，破解成功后左键点击自动破解读卡，如果破解失败可以调整卡片位置，例如放到机器背面。
-右键强制读取，可以先读数据，左键点击密码区的对应扇区，右键破解单扇区，此操作可以忽略全加密三代卡
+This software is for RFID technology research only and must not be used for illegal operations.
+This software is free to use. You may submit bug reports or suggestions on the GitHub project page.
+This software is designed for PM3 MAX hardware. Do not flash firmware on other devices without authorization.
+Left-click "Auto Crack" to crack standard cards. Right-click "Auto Crack" to crack third-generation cards with no known vulnerabilities. After cracking succeeds, left-click "Auto Crack" to read the card. If cracking fails, try repositioning the card — for example, placing it on the back of the device.
+Right-click "Force Read" to read card data first. Left-click the corresponding sector in the password area, then right-click to crack a single sector. This operation can bypass fully encrypted third-generation cards.
