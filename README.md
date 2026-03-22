@@ -1,38 +1,36 @@
-View under the master branch
+Use the `master` branch.
 
-The PM3-MAX version is a brand new version that has been greatly optimized from the EASY version, providing free GUI software and an English app. If you are not satisfied with the free software and app provided, you can use the CMD command console to operate. Both the computer and the app require flashing the corresponding firmware before use — please flash the firmware on the PC side.
+PM3-MAX is an upgraded version of the EASY model. This package includes a free GUI and an English app. If you prefer not to use the bundled GUI, you can use the command-line client instead.
 
-Disclaimer: The bundled GUI software is safe (non-malicious), but the author's skill level is limited and for unknown reasons it cannot pass Microsoft's whitelist. Since this software is provided as a free bonus, if you do not trust it or are not satisfied, you may use the command console or another GUI application to connect and use it. Note: No organization or individual is permitted to sell this software separately. It is developed by a hobbyist and provided free of charge to PM3 MAX device users.
+Before using either the PC software or the app, flash the matching firmware. In general, flash the device from the PC side first.
 
-Purchase on Alibaba: https://detail.1688.com/offer/803777061439.html?spm=a312h.2018_new_sem.dh_002.1.7ee83e6bXYB2Cl&src=zhanwai&ptid=017700000007d8185c661e82920715b1
+Disclaimer: The bundled GUI is intended to be safe and non-malicious, but it may still trigger Microsoft SmartScreen or other reputation-based warnings. If you do not want to use the bundled GUI, you can use the command-line client or another compatible GUI instead. This software is provided free of charge for PM3-MAX users and must not be sold separately.
 
-If you are not in China, you can search for this product on Alibaba.
+Purchase on Alibaba:
+https://detail.1688.com/offer/803777061439.html?spm=a312h.2018_new_sem.dh_002.1.7ee83e6bXYB2Cl&src=zhanwai&ptid=017700000007d8185c661e82920715b1
 
+If you are outside China, search for this product on Alibaba.
 
-Bottom level source code address：https://github.com/RfidResearchGroup/proxmark3
+Upstream source code:
+https://github.com/RfidResearchGroup/proxmark3
 
-The PM3-MAX version is a completely new version that has been greatly optimized for the EASY version, and provides free GUI software and an English app. If you are not satisfied with the free software and APP provided, you can use the CMD command console to operate. The computer and APP need to flash the corresponding firmware to use. Please flash the firmware on the computer side.
-
-video： https://space.bilibili.com/14666799/video
-video： https://www.youtube.com/watch?v=X790z43Bdg0&t=17s
-BT+SIM CARD：https://www.youtube.com/watch?v=4bwKxI6pZgY
-
-
-
-
+Videos:
+https://space.bilibili.com/14666799/video
+https://www.youtube.com/watch?v=X790z43Bdg0&t=17s
+Bluetooth + SIM card:
+https://www.youtube.com/watch?v=4bwKxI6pZgY
 
 6-22 Update Content
-Add 1208 CPU card read and write, support custom creation in the directory on the right, support sending APDU commands, support tid/BOMB card number modification, and TID modification for internal authentication.
-
+Added 1208 CPU card read/write support, custom directory creation on the right side, APDU command support, TID/BOMB card number modification, and internal-authentication TID modification.
 
 7-04 Update Content
-FUID card unlocking, software can unlock the FUID card, unlock the locked card number, so that any device can modify the FUID card number again. Please refer to the video for detailed operation
+Added FUID card unlocking. The software can unlock a locked FUID card so the UID can be modified again. See the video for detailed instructions.
 
 7-23 Update Content
-The firmware has been modified to support the connection module to read ISO7816 cards. This version requires firmware flashing to connect to the GUI. Supports Bluetooth connection (TD5322SPP), requires reinstalling the app
+Updated the firmware to support the optional module for reading ISO7816 contact cards. This version requires a firmware flash before it can connect to the GUI. Bluetooth connection (TD5322SPP) is supported, but the app must be reinstalled.
 
-9-3 Update Content
-After flashing the firmware, right-click on "Auto Crack" to crack F08S, right-click on "Force Read" to read F08S data through a backdoor, and if you have purchased a smart card module, you can use the command to read ISO7816. Left click on the data area or password area, then right-click to individually crack sectors or read data separately
+9-03 Update Content
+After flashing the firmware, right-click `Auto Crack` to crack F08S cards, or right-click `Force Read` to read F08S data through the backdoor. If you purchased the smart-card module, you can also use commands to read ISO7816 cards. Left-click the data area or password area, then right-click to crack individual sectors or read them separately.
 
 12-18 Update Content
-You can use the read enc data function to read  data from the encrypted 5577 card，Its process is to read data from 5577 without using a password
+The `Read enc data` function can read data from encrypted 5577 cards without using the password.

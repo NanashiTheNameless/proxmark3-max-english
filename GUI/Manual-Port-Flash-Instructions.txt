@@ -1,12 +1,12 @@
-Instructions for manually specifying a port to flash firmware:
+Instructions for manually selecting a COM port for firmware flashing:
 
 Some Windows 10/11 systems have issues where PM3 cannot automatically select the port.
-If you encounter this problem, follow these steps to manually specify the port for flashing.
+If that happens, follow these steps to flash the firmware manually.
 
-Step 1: Click "Copy-Libs-If-Firmware-Wont-Connect.bat" (the copy-libs batch file)
-  This batch file copies the contents of the libs folder inside the Client folder to the Client root directory.
-  If the batch file does not copy automatically, copy the files manually — otherwise Steps 2 and 3 cannot run.
+Step 1: Run "Copy-Libs-If-Firmware-Wont-Connect.bat"
+  This copies the contents of the `libs` folder inside the `client` folder into the `client` root directory.
+  If the batch file does not copy the files automatically, copy them manually. Otherwise, Steps 2 and 3 will not work.
 
-Step 2: After copying, click "Manual-Flash-BOOT.bat"
+Step 2: Run "Manual-Flash-BOOT.bat"
 
-Step 3: After BOOT flashing is complete, click "Manual-Flash-FULLIMAGE.bat"
+Step 3: After the bootrom flash completes, run "Manual-Flash-FULLIMAGE.bat"
