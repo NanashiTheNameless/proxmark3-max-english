@@ -1,0 +1,23 @@
+5-31 Update Content
+1. Right-clicking on the card type now automatically copies the card number; left-clicking reads the card type only without copying the card number.
+2. Added a batch block-modify command that can write random card numbers to multiple cards in bulk. Parameters must be configured beforehand. Useful for assigning unique CUID/UID numbers to different cards (e.g., registering door locks), or for writing random passwords. Adjust the delay as needed; refer to the config file for parameter details.
+
+6-22 Update Content
+1. Added support for modifying the card number of Longda 15693 phone stickers.
+2. Added CPU card read/write support. The right-side directory supports custom entries. Supports sending APDU commands, TID/BOMB card number modification, and internal authentication TID modification.
+
+7-04 Update Content
+FUID card unlocking: the software can now unlock FUID cards, clearing the locked card number so that any device can modify the FUID card number again. See the video for detailed instructions.
+
+7-14 Update Content
+Added support for various SID card operations.
+
+7-23 Update Content
+Firmware updated to support connecting a module for reading contact-based ISO7816 cards. This version requires a firmware flash to connect. The app now supports Bluetooth connections; reinstalling the app is required.
+
+9-01 Update Content
+Right-click "Auto Crack" can now crack third-generation cards with no vulnerabilities (F08S). Right-click "Force Read" reads third-generation card (F08S) data while bypassing the password. This update requires a firmware flash.
+Added support for writing 8211 ID cards.
+
+2025/4/27
+The GUI now supports cracking 0498 and other third-generation cards.

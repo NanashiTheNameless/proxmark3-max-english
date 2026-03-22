@@ -1,0 +1,22 @@
+Rnd[hex,4,1]
+Rnd[dec,1,1000]
+
+Rnd generates a random value.
+Parameter 1 = output format: hex / dec
+
+Parameter 2 = when Parameter 1 is "hex", this is the number of bytes to generate;
+              when Parameter 1 is "dec", this is the lower bound of the random range.
+
+Parameter 3 = when Parameter 1 is "hex" and Parameter 3 is 1, the last byte of the generated hex value will be the BCC checksum.
+              Example: Rnd[hex,4,1] result = A12C52DF, where DF is the BCC of the first 3 bytes.
+              When Parameter 1 is "dec", Parameter 3 is the upper bound of the random range.
+
+
+Example code for random card number:
+hf 14a info
+delay 1000
+hf 14a config --bcc ignore
+hf mf csetblk --blk 0 -d Rnd[hex,5,1]08040001368F189EB32D1D
+delay 1000
+hf mf wrbl --blk 0 -d  Rnd[hex,5,1]08040001368F189EB32D1D --force
+delay 3000
