@@ -1,3 +1,5 @@
+Translation disclaimer: This repository has been machine-translated into English. Some text may still be awkward, inconsistent, incomplete, or technically imprecise. If anything is unclear, verify it against the original files and use extra caution before flashing firmware or following device instructions.
+
 Use the `master` branch.
 
 PM3-MAX is an upgraded version of the EASY model. This package includes a free GUI and an English app. If you prefer not to use the bundled GUI, you can use the command-line client instead.
@@ -5,11 +7,6 @@ PM3-MAX is an upgraded version of the EASY model. This package includes a free G
 Before using either the PC software or the app, flash the matching firmware. In general, flash the device from the PC side first.
 
 Disclaimer: The bundled GUI is intended to be safe and non-malicious, but it may still trigger Microsoft SmartScreen or other reputation-based warnings. If you do not want to use the bundled GUI, you can use the command-line client or another compatible GUI instead. This software is provided free of charge for PM3-MAX users and must not be sold separately.
-
-Purchase on Alibaba:
-https://detail.1688.com/offer/803777061439.html?spm=a312h.2018_new_sem.dh_002.1.7ee83e6bXYB2Cl&src=zhanwai&ptid=017700000007d8185c661e82920715b1
-
-If you are outside China, search for this product on Alibaba.
 
 Upstream source code:
 https://github.com/RfidResearchGroup/proxmark3
